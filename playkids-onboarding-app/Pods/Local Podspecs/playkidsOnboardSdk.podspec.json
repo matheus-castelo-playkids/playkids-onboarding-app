@@ -1,0 +1,29 @@
+{
+  "name": "playkidsOnboardSdk",
+  "version": "1.0.0",
+  "summary": "Sample framework for onBoarding purposes on PlayKids",
+  "homepage": "https://github.com/kaio-silva-playkids/playkids-onboarding.git",
+  "license": {
+    "type": "Copyright",
+    "text": "      Copyright 2018 Movile. All rights reserved.\n"
+  },
+  "authors": {
+    "Matheus C": "matheus.castelo@playkids.com"
+  },
+  "swift_version": "4.0",
+  "platforms": {
+    "ios": "9.1"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/kaio-silva-playkids/playkids-onboarding.git",
+    "tag": "v1.0.0",
+    "submodules": true
+  },
+  "source_files": "playkids-onboard-sdk/**/*.{h,swift}",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7.1"
+    ]
+  }
+}

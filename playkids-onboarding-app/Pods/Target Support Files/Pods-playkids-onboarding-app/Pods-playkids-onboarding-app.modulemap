@@ -1,0 +1,6 @@
+framework module Pods_playkids_onboarding_app {
+  umbrella header "Pods-playkids-onboarding-app-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import playkidsOnboardSdk
+import Alamofire
+
 
 class ViewController: UIViewController {
 
