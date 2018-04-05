@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFD8C133D671067C717ADDA0 /* Pods_playkids_onboarding_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B4B65BF1EE34921446F46A /* Pods_playkids_onboarding_app.framework */; };
 		C1DFD14120755FD100D07523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DFD14020755FD100D07523 /* AppDelegate.swift */; };
 		C1DFD14320755FD100D07523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DFD14220755FD100D07523 /* ViewController.swift */; };
 		C1DFD14620755FD100D07523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DFD14420755FD100D07523 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		47ADD585D10A0B8A419317E0 /* Pods-playkids-onboarding-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playkids-onboarding-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-playkids-onboarding-app/Pods-playkids-onboarding-app.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DFD13D20755FD100D07523 /* playkids-onboarding-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "playkids-onboarding-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DFD14020755FD100D07523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DFD14220755FD100D07523 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		C1DFD15C20755FD200D07523 /* playkids-onboarding-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "playkids-onboarding-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DFD16020755FD200D07523 /* playkids_onboarding_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playkids_onboarding_appUITests.swift; sourceTree = "<group>"; };
 		C1DFD16220755FD200D07523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B4B65BF1EE34921446F46A /* Pods_playkids_onboarding_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_playkids_onboarding_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0F4B01F1B83FBF9650116B /* Pods-playkids-onboarding-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playkids-onboarding-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-playkids-onboarding-app/Pods-playkids-onboarding-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD8C133D671067C717ADDA0 /* Pods_playkids_onboarding_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2A123AD3D27C17E87778B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B4B65BF1EE34921446F46A /* Pods_playkids_onboarding_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A944FB15E5834560D1673D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47ADD585D10A0B8A419317E0 /* Pods-playkids-onboarding-app.debug.xcconfig */,
+				FC0F4B01F1B83FBF9650116B /* Pods-playkids-onboarding-app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1DFD13420755FD100D07523 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				C1DFD15420755FD200D07523 /* playkids-onboarding-appTests */,
 				C1DFD15F20755FD200D07523 /* playkids-onboarding-appUITests */,
 				C1DFD13E20755FD100D07523 /* Products */,
+				A944FB15E5834560D1673D46 /* Pods */,
+				A2A123AD3D27C17E87778B32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1DFD16520755FD200D07523 /* Build configuration list for PBXNativeTarget "playkids-onboarding-app" */;
 			buildPhases = (
+				AB063C4B1E5922AAF1AC9D9F /* [CP] Check Pods Manifest.lock */,
 				C1DFD13920755FD100D07523 /* Sources */,
 				C1DFD13A20755FD100D07523 /* Frameworks */,
 				C1DFD13B20755FD100D07523 /* Resources */,
+				3801F94D7EFBFE249A48C8C5 /* [CP] Embed Pods Frameworks */,
+				38DB8A9978C4299539CDA0D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3801F94D7EFBFE249A48C8C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-playkids-onboarding-app/Pods-playkids-onboarding-app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/playkidsOnboardSdk/playkidsOnboardSdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/playkidsOnboardSdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playkids-onboarding-app/Pods-playkids-onboarding-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DB8A9978C4299539CDA0D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-playkids-onboarding-app/Pods-playkids-onboarding-app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB063C4B1E5922AAF1AC9D9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-playkids-onboarding-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1DFD13920755FD100D07523 /* Sources */ = {
@@ -428,14 +511,12 @@
 		};
 		C1DFD16620755FD200D07523 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47ADD585D10A0B8A419317E0 /* Pods-playkids-onboarding-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +526,12 @@
 		};
 		C1DFD16720755FD200D07523 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0F4B01F1B83FBF9650116B /* Pods-playkids-onboarding-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-app/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -467,11 +546,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -487,11 +562,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-appTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-appTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,11 +577,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-appUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,11 +592,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "playkids-onboarding-appUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.playkids.playkids-onboarding-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
