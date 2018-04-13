@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        test()
+        startSDK()
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,11 +23,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func test(){
-//        let requestURL = "https://s3.amazonaws.com/dev.bojack.pkds.it/pk4/r4v1/br/main.json"
+    func startSDK(){
         playkidsOnboardSdk.SDK.startSDK()
-        
     }
-    
 }
-
